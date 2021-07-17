@@ -1,0 +1,30 @@
+.footer{
+    background-color: #EEEEEE;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    color: #A1A1A1;
+}
+.aaaa{
+    text-align: right;
+}
+@media (max-width:768px) {
+    .footer{
+        font-size: 10px;
+        height: 60px;
+    }
+    .aaaa{
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+    .bbbb{
+        display: flex;
+        align-items: center;
+        
+    }
+    .cccc{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    
+}

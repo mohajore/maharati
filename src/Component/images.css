@@ -1,0 +1,116 @@
+.images{
+    background: rgb(28,35,52);
+background: linear-gradient(0deg, rgba(28,35,52,1) 93%, rgba(246,246,246,1) 93%); 
+   height: 900px;
+}
+.s{
+    overflow-y: auto;
+    height: 900px;
+}
+.imagesinside{
+   margin-top: 100px;
+  
+}
+.ab-4{
+    margin-top: -70px;
+}
+.clip-height0{
+    height: 456px;
+}
+.clip-height{
+    height: 400px;
+}
+.clip-height2{
+    height: 200px;
+}
+.clip-height4{
+    margin-top:-300px;
+    height: 400px;
+}
+.acheivments{
+background-color: #86BA2A;
+height: 520px;
+}
+.acheivments-div1{
+    color: seashell;
+    text-align: right;
+font-size: 30px;
+font-weight: bold;
+padding: 30px;
+}
+.acheivments-div2{
+    color: #1C2334;
+    text-align: right;
+font-size: 30px;
+padding: 30px;
+}
+.acheivments2{
+    background-color:#1C2334;
+    color: seashell;
+height: 250px;
+text-align: right;
+font-size: 25px;
+font-weight: bold;
+padding: 30px;
+}
+.acheivments-btn-div{
+    text-align: end;
+    margin-right: 20px;
+    margin-top: -15px;
+  }
+.acheivments-btn{
+     color: #86BA2A;
+     background-color: #fff;
+     border-color: #86BA2A;
+     height: 40px;
+     width: 120px;
+     border: 1px solid #86BA2A;
+     border-radius: 50px;
+     transition: all 0.5s;
+     
+   }
+ .acheivments-btn:hover {
+    color: #fff;
+    background-color: #6f9b23;
+    border-color: #86BA2A;
+  }
+  .images-border-top{
+    position: relative;
+  }
+  .img-margin-t{
+      margin-top: -30px;
+  }
+  @media (max-width:768px) {
+      .images .row{
+          flex-direction: row-reverse;
+      }
+    .img-dis{
+        display: block;
+    }
+    .acheivments2{
+      margin-top: 50px;   
+    }
+    .acheivments{
+       margin-top: -640px;
+       height: 580px;
+        }
+        .acheivments-div1{
+        font-size: 25px;
+        }
+        .acheivments-div2{
+        font-size: 20px;
+        }
+        .clip-height0{
+            height: 200px;
+        }
+        .clip-height{
+            height: 200px;
+        }
+        .clip-height2{
+            height: 270px;
+        }
+        .clip-height4{
+            margin-top:-20px;
+            height: 200px;
+        }
+  }

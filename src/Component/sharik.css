@@ -1,0 +1,89 @@
+.sharik{
+    /* height: 66rem; */
+    text-align: right;
+    background-color: #E2EFC9;
+    margin: 50px 0;
+    position: relative;
+    
+}
+.sharik::before {
+	 position: absolute;
+   border-bottom: #fff solid 5px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    content: "";
+    
+}
+  .wave{
+    display: block;
+    position: relative;
+    top: -2px;
+    height: 200px;
+    background-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 1536 200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="rgba(255, 255, 255, 1)" d="M 0 35 C 149.20000000000002 35 223.79999999999998 89 373 89 L 373 89 L 373 0 L 0 0 Z" stroke-width="0"></path> <path fill="rgba(255, 255, 255, 1)" d="M 372 89 C 818.4000000000001 89 1041.6 -3 1488 -3 L 1488 -3 L 1488 0 L 372 0 Z" stroke-width="0"></path> <path fill="rgba(255, 255, 255, 1)" d="M 1487 -3 C 1508.6 -3 1519.4 -4 1541 -4 L 1541 -4 L 1541 0 L 1487 0 Z" stroke-width="0"></path><path fill="rgba(255, 255, 255, 1)" d="M 1540 -4 C 1541.6 -4 1534.4 200 1536 200 L 1536 200 L 1536 0 L 1540 0 Z" stroke-width="0"></path></svg>');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}   
+.wave2{    transform: rotate(180deg);}
+   
+.ab-1{  margin-top: 0px;}
+
+.sharik-img{  width: 100%;}
+
+.sharik-p-div{  height: 250px;  margin-left: 110px;}
+.sharik-p1{
+   font-size:30px;
+   color:black;
+   text-align: right;
+ }
+.sharik-p2{
+  color:#86BA2A;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: right;
+  display: inline-block;
+  width: 60%;
+}
+.sharik-p4{
+  font-size:30px;
+  font-weight: bold;
+  text-align: right;
+}
+.sharik-p3-div{
+  height: 300px;
+  margin-bottom: 20px;
+}
+.sharik-p3,.sharik-collapse{
+ font-size: 25px;
+}
+.sharik-btn-div{  margin-left: 110px; }
+.btn-sharik{
+  color: #86BA2A;
+  background-color: #fff;
+  border-color: #86BA2A;
+  height: 50px;
+  width: 170px;
+  border: 1px solid #86BA2A;
+  border-radius: 50px;
+  transition: all 0.5s;
+}
+.btn-sharik:hover,.btn-sharik:focus{
+  color: #fff;
+  background-color: #6f9b23;
+  border-color: #86BA2A;
+  
+}
+
+@media (max-width:768px) {
+ .sharik{
+   margin-left: 0px;
+  margin-top: 0px;
+}
+.sharik-img{ width: 100%;}
+.sharik-p3{ font-size: 20px;}
+.wd > *{ width: 100%;}
+.sharik-btn-div{ margin-left: 0px;}
+.sharik-p-div{  margin-left: 0px;}
+}

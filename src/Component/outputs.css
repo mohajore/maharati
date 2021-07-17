@@ -1,0 +1,125 @@
+.outputs{
+    text-align: center;
+}
+.outputs .row{
+    flex-direction: row-reverse;
+}
+.outputs-card-img-top{
+    width: 30%;
+   margin-top: 30px;
+}
+.outputs-card-img-top1{
+    display: none;
+}
+.outputs-value-div span,.outputs-value-div p{
+    text-align: center;
+   display: block;
+}
+.outputs-value-div span{
+    font-size: 30px;   
+    font-weight: bold;
+}
+.outputs-value-div{
+    width: 90%;
+    background-color: white;
+    height: 450px;
+    border-radius: 25px;
+    margin: 15px 0;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 30px 30px 0px;
+}
+.outputs-value-div1{
+    border-radius: 60px;
+   margin-top: 30px;
+    width: 500px;
+    height: 200px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.outputs-value-div1 img{
+   margin:auto;
+    width: 80%;
+    margin-top: 50px;
+    margin-right: 100px; 
+}
+.outputs-value-div1 span,.outputs-value-div1 p{
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 80%;
+   text-align: right;
+}
+.outputs-intro{
+}
+.outputs-title{
+    margin-top: 50px;
+}
+.outputs-p1{
+    font-size:30px;
+    color:black;
+    text-align: right;
+}
+.outputs-p2{
+    text-align: right;
+    color:#86BA2A;
+    font-size: 40px;
+    font-weight: bold;
+    margin-right: 100px;
+}
+.outputs-text{
+    margin-top: 110px;
+    margin-left: 40px;
+}
+.hhh{
+    display: flex;
+    flex-direction: row;
+    background-color: sienna;
+}
+@media (max-width:768px) {
+   
+    .outputs span{
+        font-size: 22px;
+        margin-top: 10px;
+    }
+    .outputs-card-img-top{
+       display: none;
+        width: 50%;
+    }
+    .outputs-card-img-top1{
+        display: block;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .outputs-title{
+        margin-right: 20px;
+        margin-top: 1px;
+        margin-left: 1px;
+    }
+    .outputs-text{
+        width: 80%;
+        margin-right: 50px;
+        margin-top: 0px;
+    }
+    .outputs-p2{
+        margin-right: 10px;
+    }
+    .outputs-value-div{
+        margin: 10px 0;
+        
+    }
+    .outputs-value-div1{
+        width: 93%;
+    height: 450px;
+    border-radius: 25px;
+    }
+    .outputs-value-div1 img{
+        width: 100%;
+        margin-right:30px ;
+        margin-top: 15px;
+     }
+     .outputs-value-div1 span,.outputs-value-div1 p{
+        text-align: center;
+        width: 100%;
+        margin-top: 10px;
+       margin-left: 0px;
+     }
+     
+  }
